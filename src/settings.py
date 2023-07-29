@@ -14,7 +14,9 @@ from dataset_tools.templates import (
 # * Before uploading to instance #
 ##################################
 PROJECT_NAME: str = "QuinceSet"
-PROJECT_NAME_FULL: str = "QuinceSet"
+PROJECT_NAME_FULL: str = (
+    "QuinceSet: Dataset of Annotated Japanese Quince Images for Object Detection"
+)
 
 ##################################
 # * After uploading to instance ##
@@ -64,7 +66,7 @@ AUTHORS: Optional[List[str]] = [
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
     "Institute of Horticulture, Latvia",
-    "Institute of Electronics and Computer Science, Lsatvia",
+    "Institute of Electronics and Computer Science, Latvia",
 ]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
     "https://www.lbtu.lv/en/institute-of-horticulture-0",
