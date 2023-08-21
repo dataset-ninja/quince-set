@@ -17,12 +17,13 @@ PROJECT_NAME: str = "QuinceSet"
 PROJECT_NAME_FULL: str = (
     "QuinceSet: Dataset of Annotated Japanese Quince Images for Object Detection"
 )
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.CC_BY_4_0()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Agriculture()]
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Agricultural()]
 CATEGORY: Category = Category.Agriculture()
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
@@ -35,7 +36,7 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://zenodo.org/record/6402251#.Yk_2vn9Bzmg"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = 1626073
+PREVIEW_IMAGE_ID: int = 2173050
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/quince-set"
@@ -73,7 +74,9 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
     "https://www.edi.lv/en/",
 ]
 
-SLYTAGSPLIT: Optional[Dict[str, List[str]]] = None
+SLYTAGSPLIT: Optional[Dict[str, List[str]]] = {
+    "__POSTTEXT__": "Additionaly, in the dataset presented information about ***Air temperature, °C***, ***Humidity, %***, ***Soil temperature, °C***, ***Soil moisture content, %***, and ***PPFD, µmol/m2/s***"
+}
 TAGS: List[str] = None
 
 ##################################
@@ -95,6 +98,7 @@ def get_settings():
     settings = {
         "project_name": PROJECT_NAME,
         "license": LICENSE,
+        "hide_dataset": HIDE_DATASET,
         "applications": APPLICATIONS,
         "category": CATEGORY,
         "cv_tasks": CV_TASKS,

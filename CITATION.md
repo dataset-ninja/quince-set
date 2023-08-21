@@ -19,4 +19,4 @@ If you make use of the QuinceSet data, please cite the following reference:
 }
 ```
 
-[🔗 Source](https://zenodo.org/record/6402251/export/hx)
+[Source](https://zenodo.org/record/6402251/export/hx)
