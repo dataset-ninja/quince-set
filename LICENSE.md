@@ -1,1 +1,1 @@
-QuinceSet is under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) license.
+QuinceSet: Dataset of Annotated Japanese Quince Images for Object Detection is under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) license.

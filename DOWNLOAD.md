@@ -1,6 +1,6 @@
-Dataset **QuinceSet** can be downloaded in Supervisely format:
+Dataset **QuinceSet** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/S/U/aJ/2HfieJcimxxvP3MLfrUpTbxoPEuoLM5C1RU2SfpPs5tc9EttkY2RDqme3Bj9tFJ6fMygh2hMbX4hTDDFcC29BwDdEprwxtYiVWm6Hns2Cga6Fbe4pyvCWXKKOZwB.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/c/M/i7/NCSgPn9F1dCGsg5l1DsIKfwe10BHGO5gZXVKmPqjpJ28e1826vYNZ4V2fj8HcMJI79ff3aklcmAe0KPvGAnb1WVd1vVj1RR3sN1y0aekYaAXd9VSl2NqT12tS82k.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
@@ -11,6 +11,8 @@ pip install --upgrade dataset-tools
 ``` python
 import dataset_tools as dtools
 
-dtools.download(dataset='QuinceSet', dst_path='~/dtools/datasets/QuinceSet.tar')
+dtools.download(dataset='QuinceSet', dst_dir='~/dataset-ninja/')
 ```
-The data in original format can be 🔗[downloaded here](https://zenodo.org/record/6402251/files/QuinceSet.zip?download=1)
+Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
+
+The data in original format can be [downloaded here](https://zenodo.org/record/6402251/files/QuinceSet.zip?download=1).
