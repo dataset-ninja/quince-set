@@ -75,7 +75,9 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
 ]
 
 SLYTAGSPLIT: Optional[Dict[str, List[str]]] = {
-    "__POSTTEXT__": "Additionaly, in the dataset presented information about ***Air temperature, °C***, ***Humidity, %***, ***Soil temperature, °C***, ***Soil moisture content, %***, and ***PPFD, µmol/m2/s***"
+    "__POSTTEXT__": "Additionaly, the dataset contains information about ***air temperature, °C***, ***humidity, %***, ***soil temperature, °C***, ***soil moisture content, %***, and ***PPFD, µmol/m2/s***",
+    "__PRETEXT__": "AAAddd",
+    # "fdfdf": ["f", "g"],
 }
 TAGS: List[str] = None
 

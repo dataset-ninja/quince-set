@@ -117,22 +117,22 @@ def convert_and_upload_supervisely_project(
     }
 
     tag_air = sly.TagMeta(
-        "Air temperature, °C",
+        "air temperature, °C",
         sly.TagValueType.ONEOF_STRING,
         possible_values=["24.9", "23.6", "24.2", "21.3", "22"],
     )
     tag_humidity = sly.TagMeta(
-        "Humidity, %",
+        "humidity, %",
         sly.TagValueType.ONEOF_STRING,
         possible_values=["35.9", "45.9", "57.3", "56.5", "43.5"],
     )
     tag_soil = sly.TagMeta(
-        "Soil temperature, °C",
+        "soil temperature, °C",
         sly.TagValueType.ONEOF_STRING,
         possible_values=["24.0", "22.9", "21.5", "19.3", "20.2"],
     )
     tag_moisture = sly.TagMeta(
-        "Soil moisture content, %",
+        "soil moisture content, %",
         sly.TagValueType.ONEOF_STRING,
         possible_values=["19.0", "16.8", "21.6", "28.9", "19.7"],
     )
