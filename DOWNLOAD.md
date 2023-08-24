@@ -1,6 +1,6 @@
 Dataset **QuinceSet** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/c/M/i7/NCSgPn9F1dCGsg5l1DsIKfwe10BHGO5gZXVKmPqjpJ28e1826vYNZ4V2fj8HcMJI79ff3aklcmAe0KPvGAnb1WVd1vVj1RR3sN1y0aekYaAXd9VSl2NqT12tS82k.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/C/4/zQ/aBf28i9MOwjg65aeMHAS59PXyS5mQRNoa6oo3p3sxXJpgDaHykcLGxEC4qoi7ByoxO7ILJCtLxpycsbmduRDTI6oMoShD7ITzdotBatZ54DJ7sqWhmZHeREHSEL8.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
